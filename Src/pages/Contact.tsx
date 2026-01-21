@@ -29,7 +29,7 @@ export default function Contact() {
               <div className="glow-card p-6">
                 <h3 className="text-xl font-semibold mb-6">Contact Information</h3>
                 <div className="space-y-4">
-                  {[{ icon: MapPin, label: 'Address', value: 'MP Nagar, Zone 1, Bhopal, MP 462011' }, { icon: Phone, label: 'Phone', value: '+91 755 266 5544' }, { icon: Mail, label: 'Email', value: 'info@psassociates.in' }, { icon: Clock, label: 'Hours', value: 'Mon-Sat: 9:00 AM - 6:00 PM' }].map(item => (
+                  {[{ icon: MapPin, label: 'Address', value: 'XtraNet Technologies Limited, Z-24, behind Vijay Stambh Commercial Complex, Zone-I, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011' }, { icon: Phone, label: 'Phone', value: ' +91 (0755) 422-9295 | 422-3295' }, { icon: Mail, label: 'Email: General Info:', value: 'info@xtranetindia.com' }, { icon: Mail, label: 'Email: Career:', value: 'hrm@xtranetindia.com' }, { icon: Mail, label: 'Email: Sales:', value: 'globalmarketing@xtranetindia.com' }].map(item => (
                     <div key={item.label} className="flex items-start gap-4">
                       <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"><item.icon className="w-5 h-5 text-primary" /></div>
                       <div><div className="text-sm text-muted-foreground">{item.label}</div><div className="font-medium">{item.value}</div></div>
