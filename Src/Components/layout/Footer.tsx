@@ -52,17 +52,17 @@ export default function Footer() {
             
             {/* Contact Info */}
             <div className="space-y-3">
-              <a href="mailto:info@psassociates.in" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group">
+              <a href="mailto: info@xtranetindia.com" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group">
                 <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                   <Mail className="w-4 h-4" />
                 </div>
-                <span className="text-sm">info@psassociates.in</span>
+                <span className="text-sm"> info@xtranetindia.com</span>
               </a>
-              <a href="tel:+917552665544" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group">
+              <a href="tel:+91 (0755) 422-9295" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group">
                 <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                   <Phone className="w-4 h-4" />
                 </div>
-                <span className="text-sm">+91 755 266 5544</span>
+                <span className="text-sm">+91 (0755) 422-9295</span>
               </a>
               <div className="flex items-start gap-3 text-muted-foreground">
                 <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">
@@ -137,9 +137,9 @@ export default function Footer() {
           {/* Social Links */}
           <div className="flex items-center gap-3">
             {[
-              { icon: Linkedin, href: '#' },
-              { icon: Twitter, href: '#' },
-              { icon: Facebook, href: '#' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/company/xtranetindia/' },
+              { icon: Twitter, href: 'https://x.com/xtranetindia' },
+              { icon: Facebook, href: 'https://www.facebook.com/xtranetindia' },
             ].map((social, index) => (
               <motion.a
                 key={index}
