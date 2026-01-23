@@ -116,7 +116,7 @@ export default function ServicesSection() {
             <span className="gradient-text">Government Excellence</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            From hardware procurement to skilled workforce deployment, we offer end-to-end IT solutions tailored for government organizations.
+            From hardware procurement to skilled workforce deployment, we offer end-to-end IT solutions tailored for your organization.
           </p>
         </motion.div>
 
