@@ -3,18 +3,18 @@ import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 
 const clients = [
-  'Madhya Pradesh Police',
-  'MP Public Works Department',
-  'MP Education Department',
-  'MP Health Department',
-  'MP Revenue Department',
-  'BSNL Bhopal',
-  'MP Power Transmission',
-  'MP Road Development Corporation',
-  'Bhopal Municipal Corporation',
-  'MP Tourism Development',
-  'MP Agriculture Department',
-  'MP Forest Department',
+  'Police Department',
+  'Public Works Department',
+  'Education Department',
+  'Health Department',
+  'Revenue Department',
+  'BSNL',
+  'Power Transmission',
+  'Road Development Corporation',
+  'Delhi Municipal Corporation',
+  'Gujrat Tourism Development',
+  'Agriculture Department',
+  'Forest Department',
 ];
 
 export default function ClientsSection() {
@@ -34,11 +34,11 @@ export default function ClientsSection() {
           className="text-center mb-10"
         >
           <h3 className="text-xl md:text-2xl font-semibold text-foreground mb-2">
-            Trusted by Government Organizations Across
-            <span className="gradient-text"> Madhya Pradesh</span>
+            Trusted by Leading
+            <span className="gradient-text"> Public Sector Organizations</span>
           </h3>
           <p className="text-muted-foreground">
-            Serving 50+ government departments and PSUs
+            Serving 50+ departments and public institutions
           </p>
         </motion.div>
 
