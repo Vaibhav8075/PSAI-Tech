@@ -111,12 +111,12 @@ export default function ServicesSection() {
             Our Services
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Complete IT Solutions for
+            Complete IT Solutions 
             <br />
-            <span className="gradient-text">Government Excellence</span>
+            <span className="gradient-text">Pursuing Excellence In Your Business</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            From hardware procurement to skilled workforce deployment, we offer end-to-end IT solutions tailored for government organizations.
+            From hardware procurement to skilled workforce deployment, we offer end-to-end IT solutions tailored for your organization.
           </p>
         </motion.div>
 

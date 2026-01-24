@@ -20,10 +20,17 @@ export default function Contact() {
         <div className="absolute inset-0 tech-grid opacity-30" />
         <div className="container-custom relative z-10">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-16">
-            <span className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">Contact Us</span>
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Get in <span className="gradient-text">Touch</span></h1>
-            <p className="text-muted-foreground">Request a quote or discuss your IT requirements with our experts.</p>
+            <span className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
+              Contact Us
+            </span>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              Get in <span className="gradient-text">Touch</span>
+            </h1>
+            <p className="text-muted-foreground">
+              Request a quote or discuss your IT and manpower requirements with our team.
+            </p>
           </motion.div>
+
           <div className="grid lg:grid-cols-2 gap-12">
             <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} className="space-y-6">
               <div className="glow-card p-6">
@@ -31,26 +38,75 @@ export default function Contact() {
                 <div className="space-y-4">
                   {[{ icon: MapPin, label: 'Address', value: 'XtraNet Technologies Limited, Z-24, behind Vijay Stambh Commercial Complex, Zone-I, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011' }, { icon: Phone, label: 'Phone', value: ' +91 (0755) 422-9295 | 422-3295' }, { icon: Mail, label: 'Email: General Info:', value: 'info@xtranetindia.com' }, { icon: Mail, label: 'Email: Career:', value: 'hrm@xtranetindia.com' }, { icon: Mail, label: 'Email: Sales:', value: 'globalmarketing@xtranetindia.com' }].map(item => (
                     <div key={item.label} className="flex items-start gap-4">
-                      <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0"><item.icon className="w-5 h-5 text-primary" /></div>
-                      <div><div className="text-sm text-muted-foreground">{item.label}</div><div className="font-medium">{item.value}</div></div>
+                      <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                        <item.icon className="w-5 h-5 text-primary" />
+                      </div>
+                      <div>
+                        <div className="text-sm text-muted-foreground">{item.label}</div>
+                        <div className="font-medium">{item.value}</div>
+                      </div>
                     </div>
                   ))}
                 </div>
               </div>
             </motion.div>
+
             <motion.div initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }}>
               <form onSubmit={handleSubmit} className="glow-card p-6 space-y-4">
                 <h3 className="text-xl font-semibold mb-4">Send a Message</h3>
+
                 <div className="grid md:grid-cols-2 gap-4">
-                  <input type="text" placeholder="Your Name" required value={form.name} onChange={e => setForm({...form, name: e.target.value})} className="w-full px-4 py-3 rounded-lg bg-secondary border border-border focus:border-primary outline-none transition-colors" />
-                  <input type="email" placeholder="Email Address" required value={form.email} onChange={e => setForm({...form, email: e.target.value})} className="w-full px-4 py-3 rounded-lg bg-secondary border border-border focus:border-primary outline-none transition-colors" />
+                  <input
+                    type="text"
+                    placeholder="Your Name"
+                    required
+                    value={form.name}
+                    onChange={e => setForm({ ...form, name: e.target.value })}
+                    className="w-full px-4 py-3 rounded-lg bg-secondary border border-border focus:border-primary outline-none transition-colors"
+                  />
+                  <input
+                    type="email"
+                    placeholder="Email Address"
+                    required
+                    value={form.email}
+                    onChange={e => setForm({ ...form, email: e.target.value })}
+                    className="w-full px-4 py-3 rounded-lg bg-secondary border border-border focus:border-primary outline-none transition-colors"
+                  />
                 </div>
+
                 <div className="grid md:grid-cols-2 gap-4">
-                  <input type="tel" placeholder="Phone Number" value={form.phone} onChange={e => setForm({...form, phone: e.target.value})} className="w-full px-4 py-3 rounded-lg bg-secondary border border-border focus:border-primary outline-none transition-colors" />
-                  <input type="text" placeholder="Organization/Department" value={form.organization} onChange={e => setForm({...form, organization: e.target.value})} className="w-full px-4 py-3 rounded-lg bg-secondary border border-border focus:border-primary outline-none transition-colors" />
+                  <input
+                    type="tel"
+                    placeholder="Phone Number"
+                    value={form.phone}
+                    onChange={e => setForm({ ...form, phone: e.target.value })}
+                    className="w-full px-4 py-3 rounded-lg bg-secondary border border-border focus:border-primary outline-none transition-colors"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Organization/Department"
+                    value={form.organization}
+                    onChange={e => setForm({ ...form, organization: e.target.value })}
+                    className="w-full px-4 py-3 rounded-lg bg-secondary border border-border focus:border-primary outline-none transition-colors"
+                  />
                 </div>
-                <textarea placeholder="Your Message" rows={4} required value={form.message} onChange={e => setForm({...form, message: e.target.value})} className="w-full px-4 py-3 rounded-lg bg-secondary border border-border focus:border-primary outline-none transition-colors resize-none" />
-                <button type="submit" className="glow-button text-primary-foreground w-full flex items-center justify-center gap-2"><Send className="w-4 h-4" />Send Message</button>
+
+                <textarea
+                  placeholder="Your Message"
+                  rows={4}
+                  required
+                  value={form.message}
+                  onChange={e => setForm({ ...form, message: e.target.value })}
+                  className="w-full px-4 py-3 rounded-lg bg-secondary border border-border focus:border-primary outline-none transition-colors resize-none"
+                />
+
+                <button
+                  type="submit"
+                  className="glow-button text-primary-foreground w-full flex items-center justify-center gap-2"
+                >
+                  <Send className="w-4 h-4" />
+                  Send Message
+                </button>
               </form>
             </motion.div>
           </div>

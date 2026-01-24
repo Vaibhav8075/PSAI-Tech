@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import FloatingTech from '../3d/FloatingTech';
 
 const stats = [
-  { value: '15+', label: 'Years Experience', icon: Shield },
-  { value: '500+', label: 'Projects Delivered', icon: Monitor },
-  { value: '2000+', label: 'Manpower Deployed', icon: Users },
+  { value: '5+', label: 'Years Experience', icon: Shield },
+  { value: '50+', label: 'Projects Delivered', icon: Monitor },
+  { value: '200+', label: 'Manpower Deployed', icon: Users },
 ];
 
 export default function HeroSection() {
@@ -36,7 +36,7 @@ export default function HeroSection() {
           >
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium">
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-              Madhya Pradesh's Leading IT Partner
+              Your Trusted IT Solutions Partner
             </span>
           </motion.div>
 
@@ -47,9 +47,9 @@ export default function HeroSection() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6"
           >
-            <span className="text-foreground">Powering Government</span>
+            <span className="text-foreground">Powering Business</span>
             <br />
-            <span className="gradient-text">Digital Transformation</span>
+            <span className="gradient-text">Tech-Driven Growth</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -59,7 +59,7 @@ export default function HeroSection() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
           >
-            Premium IT hardware solutions and skilled manpower services tailored for government organizations. From desktops to engineers, we deliver excellence.
+            We provide enterprise-grade IT hardware and highly skilled manpower services to power critical operations. From desktops to dedicated engineers, we enable seamless performance and long-term value.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -117,7 +117,7 @@ export default function HeroSection() {
       </div>
 
       {/* Scroll Indicator */}
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1 }}
@@ -130,7 +130,7 @@ export default function HeroSection() {
         >
           <motion.div className="w-1 h-2 rounded-full bg-primary" />
         </motion.div>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 }
