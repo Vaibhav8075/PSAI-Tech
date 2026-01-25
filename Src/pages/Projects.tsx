@@ -242,7 +242,7 @@ export default function Projects() {
               <p className="text-sm text-muted-foreground leading-relaxed">
                 ERP, Enterprise Consulting, IT Infrastructure, System Integration,
                 Data Center Services, Web / Mobile / Desktop Application
-                Development, BPO / ITeS, IT Manpower Sourcing, BI / AI / ML
+                Development, BPO / ITeS, IT Manpower Sourcing, AI / ML
                 Solutions, BPM & Workflow Solutions, Document Management
                 Solutions, Oracle Solutions, Human Resource Management Systems,
                 and Intelligence Policing.
