@@ -38,7 +38,7 @@ export default function ClientsSection() {
             <span className="gradient-text"> Public Sector Organizations</span>
           </h3>
           <p className="text-muted-foreground">
-            Serving 50+ departments and public institutions
+            Serving 130+ departments and public institutions
           </p>
         </motion.div>
 
