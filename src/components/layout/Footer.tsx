@@ -52,17 +52,23 @@ export default function Footer() {
             
             {/* Contact Info */}
             <div className="space-y-3">
-              <a href="mailto: info@xtranetindia.com" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group">
+              <a href="mailto: sales@psaitech.com" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group">
                 <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                   <Mail className="w-4 h-4" />
                 </div>
-                <span className="text-sm"> info@xtranetindia.com</span>
+                <span className="text-sm"> sales@psaitech.com</span>
+              </a>
+              <a href="mailto: hr@psaitech.com" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group">
+                <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                  <Mail className="w-4 h-4" />
+                </div>
+                <span className="text-sm"> hr@psaitech.com</span>
               </a>
               <a href="tel:+91 (0755) 422-9295" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group">
                 <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                   <Phone className="w-4 h-4" />
                 </div>
-                <span className="text-sm">+91 (0755) 422-9295</span>
+                <span className="text-sm">+91-755-4222624</span>
               </a>
               <div className="flex items-start gap-3 text-muted-foreground">
                 <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">
