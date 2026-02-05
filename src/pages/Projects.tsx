@@ -189,7 +189,7 @@ export default function Projects() {
               className="glow-card p-6"
             >
               <h3 className="text-xl font-semibold mb-4">
-                Why Choose XtraNet?
+                Why Choose PS Associates?
               </h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>• Global leader in IT solutions</li>
@@ -203,7 +203,7 @@ export default function Projects() {
                 </li>
               </ul>
               <p className="text-sm text-muted-foreground mt-4">
-                Contact XtraNet today to learn how we can help you succeed.
+                Contact PS Associates today to learn how we can help you succeed.
               </p>
             </motion.div>
 
@@ -218,7 +218,7 @@ export default function Projects() {
                 Certifications & Partnerships
               </h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                XtraNet is committed to delivering the highest quality of service
+                PS Associates is committed to delivering the highest quality of service
                 and support. The company is:
               </p>
               <ul className="space-y-2 mt-3 text-sm text-muted-foreground">

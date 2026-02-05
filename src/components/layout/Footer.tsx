@@ -11,13 +11,12 @@ const footerLinks = {
   ],
   services: [
     { name: 'IT Hardware Supply', href: '/products' },
-    { name: 'Manpower Services', href: '/manpower' },
+    { name: 'All Services', href: '/manpower' },
     { name: 'Government Projects', href: '/projects' },
-    { name: 'AMC Services', href: '/services' },
   ],
   company: [
     { name: 'About Us', href: '/about' },
-    { name: 'Our Team', href: '/about#team' },
+    { name: 'Our Partners', href: '/partners' },
     { name: 'Certifications', href: '/about#certifications' },
     { name: 'Contact', href: '/contact' },
   ],
@@ -43,7 +42,6 @@ export default function Footer() {
               </div>
               <div>
                 <span className="font-bold text-xl text-foreground">PS Associates</span>
-                <p className="text-xs text-muted-foreground">Madhya Pradesh's Premier IT Partner</p>
               </div>
             </Link>
             <p className="text-muted-foreground mb-6 max-w-md">

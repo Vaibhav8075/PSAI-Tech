@@ -121,7 +121,7 @@ export default function Products() {
             </h1>
 
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              XtraNet supplies GeM-listed, OEM-certified IT hardware solutions
+              PS Associates supplies GeM-listed, OEM-certified IT hardware solutions
               designed for government departments, PSUs, and enterprise deployments.
             </p>
           </motion.div>
