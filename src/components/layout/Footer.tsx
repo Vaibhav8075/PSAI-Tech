@@ -46,8 +46,8 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-muted-foreground mb-6 max-w-md">
-              Leading provider of IT hardware solutions and skilled manpower services to government organizations across Madhya Pradesh since 2005.
-            </p>
+              PS Associates delivers timely, high-quality technology solutions tailored to diverse industry domains, aligned with globally recognized standards. For over 28 years, we have been providing a comprehensive range of IT and IT-enabled services, including ERP solutions, application development, enterprise consulting, IT infrastructure services, and data center solutions.
+               </p>
             
             {/* Contact Info */}
             <div className="space-y-3">

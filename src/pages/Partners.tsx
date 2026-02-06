@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 import Layout from '@/components/layout/Layout';
 
 /* ========== PARTNER LOGOS ========== */
+
+// Existing
 import hpe from '@/assets/images/partners/hpe.png';
 import tcs from '@/assets/images/partners/tcs.png';
 import microsoft from '@/assets/images/partners/microsoft.png';
@@ -11,7 +13,25 @@ import dlink from '@/assets/images/partners/dlink.png';
 import cisco from '@/assets/images/partners/cisco.png';
 import epson from '@/assets/images/partners/epson.png';
 
+// New (From Screenshot)
+import array from '@/assets/images/partners/array.png';
+import aws from '@/assets/images/partners/aws.png';
+import cloudbolt from '@/assets/images/partners/cloudbolt.png';
+import edb from '@/assets/images/partners/edb.png';
+import ibm from '@/assets/images/partners/ibm.png';
+import ifs from '@/assets/images/partners/ifs.png';
+import iron from '@/assets/images/partners/iron.png';
+import nutanix from '@/assets/images/partners/nutanix.png';
+import opentext from '@/assets/images/partners/opentext.png';
+import oracle from '@/assets/images/partners/oracle.png';
+import paloalto from '@/assets/images/partners/paloalto.png';
+import redhat from '@/assets/images/partners/redhat.png';
+import sap from '@/assets/images/partners/sap.png';
+import versa from '@/assets/images/partners/versa.png';
+import vmware from '@/assets/images/partners/vmware.png';
+
 /* ========== CLIENT LOGOS ========== */
+
 import c1 from '@/assets/images/clients/c1.png';
 import c2 from '@/assets/images/clients/c2.png';
 import c3 from '@/assets/images/clients/c3.png';
@@ -25,50 +45,127 @@ import c10 from '@/assets/images/clients/c10.png';
 import c11 from '@/assets/images/clients/c11.png';
 import c12 from '@/assets/images/clients/c12.png';
 
-/* ========== DATA ========== */
+/* ========== PARTNERS DATA ========== */
 
 const partners = [
   {
-    name: 'Hewlett Packard Enterprise',
-    logo: hpe,
-    desc: 'Hewlett Packard Enterprise Value Partner',
+    name: 'Array Networks',
+    logo: array,
+    desc: 'Application Delivery & Security Partner',
   },
   {
-    name: 'Tata Consultancy Services',
-    logo: tcs,
-    desc: 'TCS Implementation Partner',
-  },
-  {
-    name: 'Microsoft',
-    logo: microsoft,
-    desc: 'Microsoft Value Partner',
-  },
-  {
-    name: 'Intel',
-    logo: intel,
-    desc: 'Intel Software & Technology Provider',
-  },
-  {
-    name: 'Samsung',
-    logo: samsung,
-    desc: 'Samsung Valuable Partner',
-  },
-  {
-    name: 'D-Link',
-    logo: dlink,
-    desc: 'D-Link Implementation Partner',
+    name: 'Amazon Web Services',
+    logo: aws,
+    desc: 'Cloud Services Partner',
   },
   {
     name: 'Cisco',
     logo: cisco,
-    desc: 'Cisco Implementation Partner',
+    desc: 'Networking Solutions Partner',
+  },
+  {
+    name: 'CloudBolt',
+    logo: cloudbolt,
+    desc: 'Hybrid Cloud Partner',
+  },
+  {
+    name: 'D-Link',
+    logo: dlink,
+    desc: 'Networking Infrastructure Partner',
+  },
+  {
+    name: 'EDB PostgreSQL',
+    logo: edb,
+    desc: 'Database Solutions Partner',
   },
   {
     name: 'Epson',
     logo: epson,
-    desc: 'EPSON Implementation Partner',
+    desc: 'Printing Solutions Partner',
+  },
+  {
+    name: 'Hewlett Packard Enterprise',
+    logo: hpe,
+    desc: 'Enterprise Solutions Partner',
+  },
+  {
+    name: 'IBM',
+    logo: ibm,
+    desc: 'IT & Consulting Partner',
+  },
+  {
+    name: 'IFS',
+    logo: ifs,
+    desc: 'ERP Solutions Partner',
+  },
+  {
+    name: 'Intel',
+    logo: intel,
+    desc: 'Technology Provider',
+  },
+  {
+    name: 'Iron Mountain',
+    logo: iron,
+    desc: 'Data Management Partner',
+  },
+  {
+    name: 'Microsoft',
+    logo: microsoft,
+    desc: 'Cloud & Software Partner',
+  },
+  {
+    name: 'Nutanix',
+    logo: nutanix,
+    desc: 'Cloud Infrastructure Partner',
+  },
+  {
+    name: 'OpenText',
+    logo: opentext,
+    desc: 'Information Management Partner',
+  },
+  {
+    name: 'Oracle',
+    logo: oracle,
+    desc: 'Enterprise Software Partner',
+  },
+  {
+    name: 'Palo Alto Networks',
+    logo: paloalto,
+    desc: 'Cybersecurity Partner',
+  },
+  {
+    name: 'Red Hat',
+    logo: redhat,
+    desc: 'Open Source Solutions Partner',
+  },
+  {
+    name: 'Samsung',
+    logo: samsung,
+    desc: 'Technology Partner',
+  },
+  {
+    name: 'SAP',
+    logo: sap,
+    desc: 'Enterprise Resource Planning Partner',
+  },
+  {
+    name: 'Tata Consultancy Services',
+    logo: tcs,
+    desc: 'Implementation Partner',
+  },
+  {
+    name: 'Versa Networks',
+    logo: versa,
+    desc: 'SD-WAN Partner',
+  },
+  {
+    name: 'VMware',
+    logo: vmware,
+    desc: 'Virtualization Partner',
   },
 ];
+
+/* ========== CLIENT DATA ========== */
 
 const clients = [
   { name: 'Client 1', logo: c1 },
@@ -84,6 +181,8 @@ const clients = [
   { name: 'Client 11', logo: c11 },
   { name: 'Client 12', logo: c12 },
 ];
+
+/* ========== COMPONENT ========== */
 
 export default function Partners() {
   return (
@@ -111,9 +210,8 @@ export default function Partners() {
             </h1>
 
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              We have partnered with the best technology providers in all solution
-              areas. Along with software alliances, we deliver professional
-              services, system integration, custom development, and consulting.
+              We collaborate with world-class technology leaders to deliver
+              innovative, scalable, and secure solutions.
             </p>
           </motion.div>
 
@@ -128,13 +226,14 @@ export default function Partners() {
             </h2>
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
               {partners.map((item, i) => (
                 <motion.div
                   key={`${item.name}-${i}`}
                   initial={{ opacity: 0, scale: 0.9 }}
                   animate={{ opacity: 1, scale: 1 }}
-                  transition={{ delay: i * 0.1 }}
-                  className="glow-card p-6 flex flex-col items-center text-center"
+                  transition={{ delay: i * 0.05 }}
+                  className="glow-card p-6 flex flex-col items-center text-center hover:scale-105 transition"
                 >
                   <img
                     src={item.logo}
@@ -151,6 +250,7 @@ export default function Partners() {
                   </p>
                 </motion.div>
               ))}
+
             </div>
           </motion.div>
 
@@ -164,7 +264,8 @@ export default function Partners() {
               Our Clientele
             </h2>
 
-            <div className="grid grid-cols-2 mx-auto md:grid-cols-3 lg:grid-cols-4 gap-2 items-center">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 items-center">
+
               {clients.map((client, i) => (
                 <motion.div
                   key={`client-${i}`}
@@ -180,6 +281,7 @@ export default function Partners() {
                   />
                 </motion.div>
               ))}
+
             </div>
           </motion.div>
 
